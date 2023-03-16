@@ -17,7 +17,7 @@ languages['Chinese'] = gettext.translation('myapplication', localedir='locale', 
 languages['English'] = gettext
 
 keys = ['url', 'token']
-auto_delete_duration = 20  # seconds
+auto_delete_duration = 60  # seconds
 VERSION = '0.0.2'
 # Enable logging
 logging.basicConfig(
